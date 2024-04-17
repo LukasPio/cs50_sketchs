@@ -3,7 +3,7 @@
 int main()
 {
     int numbers_to_sort[] = {7, 1, 4, 2, 9, 6, 3, 5, 8};
-    int array_size = sizeof(numbers_to_sort) / sizeof(numbers_to_sort[0]);    
+    int array_size = sizeof(numbers_to_sort) / sizeof(numbers_to_sort[0]);
 
     for (int i = 0; i < array_size - 1; i++)
     {
@@ -25,7 +25,7 @@ int main()
     {
         printf("%i ", numbers_to_sort[i]);
     }
-    
+
     printf("\n");
     return 0;
 }
